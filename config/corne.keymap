@@ -12,12 +12,12 @@
     combos {
         compatible = "zmk,combos";
 
-        NE-ESC {
+        NE_ESC {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
         };
 
-        TN-CAPS {
+        TN_CAPS {
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
         };
