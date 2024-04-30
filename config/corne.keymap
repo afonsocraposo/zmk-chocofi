@@ -21,6 +21,16 @@
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
         };
+
+        EI_SQT {
+            bindings = <&kp SQT>;
+            key-positions = <20 21>;
+        };
+
+        UY_COLON {
+            bindings = <&kp COLON>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
