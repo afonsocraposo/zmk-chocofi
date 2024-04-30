@@ -33,6 +33,17 @@
         };
     };
 
+    behaviors {
+        bhm: balanced_homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <170>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -46,7 +57,7 @@
             bindings = <
 &none  &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J        &kp L              &kp U            &kp Y              &kp SEMICOLON        &none
 &none  &kp A           &kp R           &kp S               &kp T             &kp G          &kp M        &kp N              &kp E            &kp I              &kp O                &none
-&none  &mt LEFT_GUI Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT D  &kp V          &kp K        &mt RIGHT_SHIFT H  &mt RCTRL COMMA  &mt RIGHT_ALT DOT  &mt RIGHT_GUI SLASH  &none
+&none  &bhm LEFT_GUI Z  &bhm LEFT_ALT X  &bhm LEFT_CONTROL C  &bhm LEFT_SHIFT D  &kp V          &kp K        &bhm RIGHT_SHIFT H  &bhm RCTRL COMMA  &bhm RIGHT_ALT DOT  &bhm RIGHT_GUI SLASH  &none
                                        &kp ESC             &lt 3 TAB         &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE    &kp DELETE
             >;
         };
