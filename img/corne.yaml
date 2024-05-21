@@ -175,9 +175,13 @@ layers:
 combos:
 - p: [19, 20]
   k: ESCAPE
+  l: [default]
 - p: [16, 19]
   k: CAPS
+  l: [default]
 - p: [20, 21]
   k: ''''
+  l: [default]
 - p: [8, 9]
   k: ':'
+  l: [default]

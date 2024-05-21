@@ -21,22 +21,28 @@
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
             timeout-ms = <35>;
+            layers = <0>;
         };
 
         TN_CAPS {
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
+            timeout-ms = <35>;
+            layers = <0>;
         };
 
         EI_SQT {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
+            timeout-ms = <35>;
+            layers = <0>;
         };
 
         UY_COLON {
             bindings = <&kp COLON>;
             key-positions = <8 9>;
-            timeout-ms = <40>;
+            timeout-ms = <35>;
+            layers = <0>;
         };
     };
 
