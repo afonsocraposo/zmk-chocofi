@@ -62,10 +62,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J        &kp L               &kp U             &kp Y               &kp SEMICOLON         &none
-&none  &hrm LEFT_GUI A            &hrm LEFT_ALT R            &hrm LEFT_CONTROL S                &hrm LEFT_SHIFT T              &kp G          &kp M        &hrm RIGHT_SHIFT N               &hrm RCTRL E             &hrm RIGHT_ALT I               &hrm RIGHT_GUI O                 &none
-&none  &kp Z  &kp X  &kp C  &kp D  &kp V          &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH  &none
-                                         &kp ESC              &lt 3 TAB          &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &kp DELETE
+&none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &kp SEMICOLON     &none
+&none  &hrm LEFT_GUI A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M        &hrm RIGHT_SHIFT N  &hrm RCTRL E  &hrm RIGHT_ALT I  &hrm RIGHT_GUI O  &none
+&none  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K        &kp H               &kp COMMA     &kp DOT           &kp SLASH         &none
+                                         &key_repeat          &lt 3 TAB          &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &kp DELETE
             >;
         };
 
@@ -78,7 +78,7 @@
 
             bindings = <
 &none  &kp N1            &kp N2        &kp N3        &kp N4        &kp N5        &kp N6     &kp N7        &kp N8        &kp N9        &kp N0     &none
-&none  &kp C_PLAY_PAUSE  &kp K_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE   &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &trans
+&none  &kp C_PLAY_PAUSE  &kp K_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE    &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &trans
 &none  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &trans
                                        &trans        &trans        &trans        &trans     &trans        &kp EQUAL
             >;
