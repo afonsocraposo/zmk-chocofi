@@ -41,7 +41,7 @@
     };
 
     behaviors {
-        bhm: balanced_homerow_mods {
+        hrm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <170>;    // <---[[moderate duration]]
@@ -63,8 +63,8 @@
 
             bindings = <
 &none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J        &kp L               &kp U             &kp Y               &kp SEMICOLON         &none
-&none  &kp A            &kp R            &kp S                &kp T              &kp G          &kp M        &kp N               &kp E             &kp I               &kp O                 &none
-&none  &bhm LEFT_GUI Z  &bhm LEFT_ALT X  &bhm LEFT_CONTROL C  &bhm LEFT_SHIFT D  &kp V          &kp K        &bhm RIGHT_SHIFT H  &bhm RCTRL COMMA  &bhm RIGHT_ALT DOT  &bhm RIGHT_GUI SLASH  &none
+&none  &hrm LEFT_GUI A            &hrm LEFT_ALT R            &hrm LEFT_CONTROL S                &hrm LEFT_SHIFT T              &kp G          &kp M        &hrm RIGHT_SHIFT N               &hrm RCTRL E             &hrm RIGHT_ALT I               &hrm RIGHT_GUI O                 &none
+&none  &kp Z  &kp X  &kp C  &kp D  &kp V          &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH  &none
                                          &kp ESC              &lt 3 TAB          &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &kp DELETE
             >;
         };
