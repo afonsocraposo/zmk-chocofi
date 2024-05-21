@@ -1,0 +1,183 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  default:
+  - ''
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - ''
+  - ''
+  - {t: A, h: LEFT GUI}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: LEFT CONTROL}
+  - {t: T, h: LEFT SHIFT}
+  - G
+  - M
+  - {t: N, h: RIGHT SHIFT}
+  - {t: E, h: RCTRL}
+  - {t: I, h: RIGHT ALT}
+  - {t: O, h: RIGHT GUI}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - ''
+  - '&key_repeat'
+  - {t: TAB, h: nav}
+  - {t: SPACE, h: num}
+  - {t: ENTER, h: sym}
+  - {t: BACKSPACE, h: nav}
+  - DELETE
+  num:
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - PLAY PAUSE
+  - NEXT
+  - VOL DN
+  - VOL UP
+  - MUTE
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - {t: ▽, type: trans}
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - BT CLR
+  - ','
+  - '1'
+  - '2'
+  - '3'
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  sym:
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
+  - '`'
+  - '~'
+  - Sft+Alt+ 2
+  - '{'
+  - '['
+  - ']'
+  - '}'
+  - '-'
+  - '='
+  - '"'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - '|'
+  - _
+  - +
+  - \
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - {t: ▽, type: trans}
+  - Sft+Gui+ 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+ `
+  - Alt+ C
+  - Alt+ E
+  - Alt+ N
+  - Alt+ I
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT CONTROL
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ D
+  - Ctl+ U
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [19, 20]
+  k: ESCAPE
+- p: [16, 19]
+  k: CAPS
+- p: [20, 21]
+  k: ''''
+- p: [8, 9]
+  k: ':'
