@@ -14,28 +14,28 @@ layers:
   - ;
   - ''
   - ''
-  - {t: A, h: LEFT GUI}
-  - {t: R, h: LEFT ALT}
-  - {t: S, h: LEFT CONTROL}
-  - {t: T, h: LEFT SHIFT}
+  - A
+  - R
+  - S
+  - T
   - G
   - M
-  - {t: N, h: RIGHT SHIFT}
-  - {t: E, h: RCTRL}
-  - {t: I, h: RIGHT ALT}
-  - {t: O, h: RIGHT GUI}
+  - N
+  - E
+  - I
+  - O
   - ''
   - ''
-  - Z
-  - X
-  - C
-  - D
+  - {t: Z, h: LEFT GUI}
+  - {t: X, h: LEFT ALT}
+  - {t: C, h: LEFT CONTROL}
+  - {t: D, h: LEFT SHIFT}
   - V
   - K
-  - H
-  - ','
-  - .
-  - /
+  - {t: H, h: RIGHT SHIFT}
+  - {t: ',', h: RCTRL}
+  - {t: ., h: RIGHT ALT}
+  - {t: /, h: RIGHT GUI}
   - ''
   - '&key_repeat'
   - {t: TAB, h: nav}
