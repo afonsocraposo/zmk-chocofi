@@ -71,7 +71,7 @@
 &none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J        &kp L               &kp U             &kp Y               &kp SEMICOLON         &none
 &none  &kp A            &kp R            &kp S                &kp T              &kp G          &kp M        &kp N               &kp E             &kp I               &kp O                 &none
 &none  &brm LEFT_GUI Z  &brm LEFT_ALT X  &brm LEFT_CONTROL C  &brm LEFT_SHIFT D  &kp V          &kp K        &brm RIGHT_SHIFT H  &brm RCTRL COMMA  &brm RIGHT_ALT DOT  &brm RIGHT_GUI SLASH  &none
-                                         &key_repeat          &lt 3 TAB          &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &kp DELETE
+                                         &kp ESC              &lt 3 TAB          &lt 1 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &kp DELETE
             >;
         };
 
