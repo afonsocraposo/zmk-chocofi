@@ -40,8 +40,8 @@ layers:
   - ESC
   - {t: TAB, h: nav}
   - {t: SPACE, h: num}
-  - {t: BACKSPACE, h: sym}
-  - {t: ENTER, h: nav}
+  - {t: ENTER, h: sym}
+  - {t: BACKSPACE, h: nav}
   - DELETE
   num:
   - ''
