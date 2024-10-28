@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
   - ''
@@ -40,8 +40,8 @@ layers:
   - ESC
   - {t: TAB, h: nav}
   - {t: SPACE, h: num}
-  - {t: ENTER, h: sym}
-  - {t: BACKSPACE, h: nav}
+  - {t: BACKSPACE, h: sym}
+  - {t: ENTER, h: nav}
   - DELETE
   num:
   - ''
@@ -57,7 +57,7 @@ layers:
   - '0'
   - ''
   - ''
-  - PLAY PAUSE
+  - {t: PLAY PAUSE, h: NEXT}
   - NEXT
   - VOL DN
   - VOL UP
