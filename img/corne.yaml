@@ -57,7 +57,7 @@ layers:
   - '0'
   - ''
   - ''
-  - {t: PLAY PAUSE, h: PREV}
+  - {t: PLAY PAUSE, h: PREVIOUS}
   - NEXT
   - VOL DN
   - VOL UP
