@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   default:
   - ''
@@ -102,7 +102,7 @@ layers:
   - ''
   - '`'
   - '~'
-  - Sft+Alt+ 2
+  - Sft+Alt+2
   - '{'
   - '['
   - ']'
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
-  - Sft+Gui+ 5
+  - Sft+Gui+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,11 +143,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ `
-  - Alt+ C
-  - Alt+ E
-  - Alt+ N
-  - Alt+ I
+  - Alt+`
+  - Alt+C
+  - Alt+E
+  - Alt+N
+  - Alt+I
   - LEFT
   - DOWN
   - UP
@@ -161,8 +161,8 @@ layers:
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ D
-  - Ctl+ U
+  - Ctl+D
+  - Ctl+U
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [19, 20]
+- p: [7, 8]
   k: ESCAPE
   l: [default]
 - p: [16, 19]
