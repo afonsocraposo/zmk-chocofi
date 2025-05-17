@@ -143,11 +143,11 @@ layers:
   - KP 0
   - ''
   - ''
+  - Sft+Gui+5
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&personal_email'
   - LEFT
   - DOWN
   - UP
@@ -159,7 +159,7 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - LEFT SHIFT
-  - ''
+  - '&paddle_email'
   - HOME
   - PAGE DOWN
   - PAGE UP
