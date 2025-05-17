@@ -17,32 +17,67 @@
     combos {
         compatible = "zmk,combos";
 
-        NE_ESC {
+        combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <7 8>;
+            key-positions = <2 3>;
             timeout-ms = <30>;
             layers = <0>;
         };
 
-        TN_CAPS {
+        combo_caps {
             bindings = <&kp CAPS>;
-            key-positions = <16 19>;
+            key-positions = <28 31>;
             timeout-ms = <35>;
             layers = <0>;
         };
 
-        EI_SQT {
+        combo_sqt {
             bindings = <&kp SQT>;
-            key-positions = <20 21>;
-            timeout-ms = <35>;
-            layers = <0>;
-        };
-
-        UY_COLON {
-            bindings = <&kp COLON>;
             key-positions = <8 9>;
             timeout-ms = <35>;
             layers = <0>;
+        };
+
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <9 10>;
+            timeout-ms = <35>;
+            layers = <0>;
+        };
+
+        combo_caps_word {
+            bindings = <&caps_word>;
+            key-positions = <16 19>;
+        };
+
+        combo_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
+        };
+
+        combo_delete_word {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <32 33>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
+        };
+
+        combo_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <34 33>;
+        };
+
+        combo_reset_left {
+            bindings = <&sys_reset>;
+            key-positions = <5 29>;
+        };
+
+        combo_reset_right {
+            bindings = <&sys_reset>;
+            key-positions = <6 30>;
         };
     };
 
@@ -54,6 +89,22 @@
             quick-tap-ms = <200>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+        };
+    };
+
+    macros {
+        personal_email: personal_email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp F &kp O &kp N &kp S &kp O &kp C &kp R &kp A &kp P &kp O &kp S &kp O &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "PERSONAL_EMAIL";
+        };
+
+        paddle_email: paddle_email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp F &kp O &kp N &kp S &kp O &kp DOT &kp R &kp A &kp P &kp O &kp S &kp O &kp AT &kp P &kp A &kp D &kp D &kp L &kp E &kp DOT &kp C &kp O &kp M>;
+            label = "PADDLE_EMAIL";
         };
     };
 

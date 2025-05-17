@@ -173,15 +173,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [7, 8]
+- p: [2, 3]
   k: ESCAPE
   l: [default]
-- p: [16, 19]
+- p: [28, 31]
   k: CAPS
   l: [default]
-- p: [20, 21]
+- p: [8, 9]
   k: ''''
   l: [default]
-- p: [8, 9]
+- p: [9, 10]
   k: ':'
   l: [default]
+- p: [16, 19]
+  k: '&caps_word'
+- p: [20, 21]
+  k: BACKSPACE
+- p: [32, 33]
+  k: Alt+BACKSPACE
+- p: [26, 27]
+  k: TAB
+- p: [34, 33]
+  k: DELETE
+- p: [5, 29]
+  k: '&sys_reset'
+- p: [6, 30]
+  k: '&sys_reset'
