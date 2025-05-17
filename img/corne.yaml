@@ -38,10 +38,10 @@ layers:
   - {t: /, h: RIGHT GUI}
   - ''
   - ''
-  - {t: nav, h: nav}
+  - {t: sym, h: nav}
   - {t: SPACE, h: num}
   - {t: ENTER, h: sym}
-  - {t: sym, h: num}
+  - {t: sym, h: nav}
   - ''
   num:
   - ''
@@ -81,9 +81,9 @@ layers:
   - +
   - ''
   - ''
-  - ''
-  - {type: held}
-  - ''
+  - {t: default, h: toggle}
+  - {t: default, h: toggle, type: held}
+  - {t: default, h: toggle}
   - {t: default, h: toggle}
   - '='
   sym:
@@ -124,9 +124,9 @@ layers:
   - \
   - ''
   - ''
-  - ''
-  - ''
-  - {type: held}
+  - {t: default, h: toggle, type: held}
+  - {t: default, h: toggle}
+  - {t: default, h: toggle}
   - {t: default, h: toggle}
   - ''
   nav:
@@ -139,7 +139,7 @@ layers:
   - KP 6
   - KP 7
   - KP 8
-  - '9'
+  - KP 9
   - KP 0
   - ''
   - ''
@@ -168,9 +168,9 @@ layers:
   - ''
   - ''
   - {t: default, h: toggle, type: held}
-  - ''
-  - ''
-  - ''
+  - {t: default, h: toggle}
+  - {t: default, h: toggle}
+  - {t: default, h: toggle}
   - ''
 combos:
 - p: [14, 15]
