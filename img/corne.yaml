@@ -38,10 +38,10 @@ layers:
   - {t: /, h: RIGHT GUI}
   - ''
   - ''
-  - {t: sym, h: num}
+  - {t: nav, h: nav}
   - {t: SPACE, h: num}
   - {t: ENTER, h: sym}
-  - {t: nav, h: nav}
+  - {t: sym, h: num}
   - ''
   num:
   - ''
@@ -124,9 +124,9 @@ layers:
   - \
   - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav:
@@ -167,10 +167,10 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [2, 3]
