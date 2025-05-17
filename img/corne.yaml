@@ -131,16 +131,16 @@ layers:
   - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
-  - Sft+Gui+5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PAGE DOWN
-  - PAGE UP
-  - END
-  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 7
+  - KP 8
+  - '9'
+  - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+`
@@ -160,10 +160,10 @@ layers:
   - LEFT CONTROL
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+D
-  - Ctl+U
-  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,3 +199,7 @@ combos:
   k: '&sys_reset'
 - p: [6, 30]
   k: '&sys_reset'
+- p: [5, 17, 29]
+  k: '&bootloader'
+- p: [6, 18, 30]
+  k: '&bootloader'

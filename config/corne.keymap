@@ -79,6 +79,16 @@
             bindings = <&sys_reset>;
             key-positions = <6 30>;
         };
+
+        bootloader_left {
+            bindings = <&bootloader>;
+            key-positions = <5 17 29>;
+        };
+
+        bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <6 18 30>;
+        };
     };
 
     behaviors {
@@ -158,10 +168,10 @@
 
         nav_layer {
             bindings = <
-&trans  &kp LS(LG(N5))  &trans        &trans            &trans          &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-&trans  &kp LA(GRAVE)   &kp LA(C)     &kp LA(E)         &kp LA(N)       &kp LA(I)    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &kp LEFT_GUI    &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans    &kp LC(D)      &kp LC(U)    &trans     &trans  &trans
-                                      &trans            &trans          &trans       &trans    &trans         &trans
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp NUMBER_9  &kp KP_NUMBER_0  &trans
+&trans  &kp LA(GRAVE)    &kp LA(C)        &kp LA(E)         &kp LA(N)        &kp LA(I)          &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT     &trans           &trans
+&trans  &kp LEFT_GUI     &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT   &trans             &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP      &kp END       &trans           &trans
+                                          &trans            &trans           &trans             &trans           &trans           &trans
             >;
         };
     };
