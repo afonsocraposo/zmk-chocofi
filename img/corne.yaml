@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - '='
   sym:
   - ''
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   nav:
   - ''
@@ -152,26 +152,26 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - LEFT GUI
   - LEFT ALT
   - LEFT CONTROL
   - LEFT SHIFT
-  - {t: ▽, type: trans}
+  - ''
   - HOME
   - PAGE DOWN
   - PAGE UP
   - END
-  - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: default, h: toggle, type: held}
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [14, 15]
   k: ESCAPE
