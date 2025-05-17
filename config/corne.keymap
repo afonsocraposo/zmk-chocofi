@@ -19,7 +19,7 @@
 
         combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <14 15>;
             timeout-ms = <30>;
             layers = <0>;
         };
@@ -33,14 +33,14 @@
 
         combo_sqt {
             bindings = <&kp SQT>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
             timeout-ms = <30>;
             layers = <0>;
         };
 
         combo_colon {
             bindings = <&kp COLON>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
             timeout-ms = <30>;
             layers = <0>;
         };
@@ -97,7 +97,7 @@
 
         reset_layer {
             bindings = <&to 0>;
-            key-positions = <2 3>;
+            key-positions = <14 15>;
             layers = <1 2 3>;
             timeout-ms = <30>;
         };

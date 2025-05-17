@@ -173,16 +173,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [2, 3]
+- p: [14, 15]
   k: ESCAPE
   l: [default]
 - p: [28, 31]
   k: CAPS
   l: [default]
-- p: [8, 9]
+- p: [8, 7]
   k: ''''
   l: [default]
-- p: [9, 10]
+- p: [9, 8]
   k: ':'
   l: [default]
 - p: [16, 19]
@@ -203,6 +203,6 @@ combos:
   k: '&bootloader'
 - p: [6, 18, 30]
   k: '&bootloader'
-- p: [2, 3]
+- p: [14, 15]
   k: {t: default, h: toggle}
   l: [num, sym, nav]
