@@ -37,12 +37,12 @@ layers:
   - {t: ., h: RIGHT ALT}
   - {t: /, h: RIGHT GUI}
   - ''
-  - ESC
-  - {t: TAB, h: nav}
+  - ''
+  - {t: sym, h: num}
   - {t: SPACE, h: num}
   - {t: ENTER, h: sym}
-  - {t: BACKSPACE, h: nav}
-  - DELETE
+  - {t: nav, h: nav}
+  - ''
   num:
   - ''
   - '1'
@@ -112,9 +112,9 @@ layers:
   - '"'
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+`
+  - Alt+9
+  - Alt+0
   - {t: ▽, type: trans}
   - <
   - '>'
@@ -124,13 +124,13 @@ layers:
   - \
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav:
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - ''
   - KP 1
   - KP 2
   - KP 3
@@ -141,20 +141,20 @@ layers:
   - KP 8
   - '9'
   - KP 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+`
-  - Alt+C
-  - Alt+E
-  - Alt+N
-  - Alt+I
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - LEFT GUI
   - LEFT ALT
   - LEFT CONTROL
@@ -165,12 +165,12 @@ layers:
   - PAGE UP
   - END
   - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [2, 3]
@@ -203,3 +203,6 @@ combos:
   k: '&bootloader'
 - p: [6, 18, 30]
   k: '&bootloader'
+- p: [2, 3]
+  k: {t: default, h: toggle}
+  l: [num, sym, nav]
