@@ -101,6 +101,11 @@
             layers = <1 2 3>;
             timeout-ms = <30>;
         };
+
+        combo_delete_line {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {

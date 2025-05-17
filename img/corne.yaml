@@ -206,3 +206,5 @@ combos:
 - p: [14, 15]
   k: {t: default, h: toggle}
   l: [num, sym, nav]
+- p: [31, 32]
+  k: Gui+BACKSPACE
