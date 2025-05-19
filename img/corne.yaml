@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - '&sys_reset'
 combos:
-- p: [19, 20]
+- p: [15, 14]
   k: ESCAPE
   l: [default]
 - p: [28, 31]

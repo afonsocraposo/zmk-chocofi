@@ -19,8 +19,8 @@
 
         combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
-            timeout-ms = <25>;
+            key-positions = <15 14>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
