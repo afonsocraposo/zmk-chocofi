@@ -38,10 +38,10 @@ layers:
   - {t: /, h: RIGHT GUI}
   - ''
   - ''
-  - {t: TAB, h: nav}
-  - {t: SPACE, h: num}
+  - {t: TAB, h: num}
+  - {t: SPACE, h: nav}
   - {t: ENTER, h: sym}
-  - {t: sym, h: nav}
+  - {t: BACKSPACE, h: nav}
   - ''
   num:
   - ''
@@ -81,10 +81,10 @@ layers:
   - +
   - ''
   - '&bootloader'
-  - {t: default, h: toggle}
   - {t: default, h: toggle, type: held}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '='
   sym:
   - ''
@@ -125,9 +125,9 @@ layers:
   - ''
   - ''
   - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle, type: held}
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - '&bootloader'
   nav:
   - ''
@@ -167,19 +167,19 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - {t: default, h: toggle, type: held}
   - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&sys_reset'
 combos:
-- p: [14, 15]
+- p: [19, 20]
   k: ESCAPE
   l: [default]
 - p: [28, 31]
   k: CAPS
   l: [default]
-- p: [8, 7]
+- p: [20, 21]
   k: ''''
   l: [default]
 - p: [9, 8]
@@ -187,8 +187,6 @@ combos:
   l: [default]
 - p: [16, 19]
   k: '&caps_word'
-- p: [20, 21]
-  k: BACKSPACE
 - p: [32, 33]
   k: Alt+BACKSPACE
 - p: [2, 3]
@@ -208,3 +206,5 @@ combos:
   l: [num, sym, nav]
 - p: [31, 32]
   k: Gui+BACKSPACE
+- p: [38, 39]
+  k: {t: sym, h: sticky}
