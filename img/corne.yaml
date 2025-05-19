@@ -189,8 +189,6 @@ combos:
   k: '&caps_word'
 - p: [32, 33]
   k: Alt+BACKSPACE
-- p: [2, 3]
-  k: TAB
 - p: [34, 33]
   k: DELETE
 - p: [14, 15]

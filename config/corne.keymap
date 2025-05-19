@@ -57,12 +57,6 @@
             timeout-ms = <30>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <2 3>;
-            timeout-ms = <30>;
-        };
-
         combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <34 33>;
