@@ -33,7 +33,7 @@
 
         combo_sqt {
             bindings = <&kp SQT>;
-            key-positions = <20 21>;
+            key-positions = <8 7>;
             timeout-ms = <30>;
             layers = <0>;
         };
@@ -69,26 +69,6 @@
             timeout-ms = <30>;
         };
 
-        combo_reset_left {
-            bindings = <&sys_reset>;
-            key-positions = <5 29>;
-        };
-
-        combo_reset_right {
-            bindings = <&sys_reset>;
-            key-positions = <6 30>;
-        };
-
-        bootloader_left {
-            bindings = <&bootloader>;
-            key-positions = <5 17 29>;
-        };
-
-        bootloader_right {
-            bindings = <&bootloader>;
-            key-positions = <6 18 30>;
-        };
-
         reset_layer {
             bindings = <&to 0>;
             key-positions = <14 15>;
@@ -101,9 +81,10 @@
             key-positions = <31 32>;
         };
 
-        combo_sticky {
-            bindings = <&sl 2>;
-            key-positions = <38 39>;
+        combo_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
+            timeout-ms = <30>;
         };
     };
 
@@ -173,10 +154,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J        &kp L               &kp U             &kp Y               &kp SEMICOLON         &none
-&none  &kp A            &kp R            &kp S                &kp T              &kp G          &kp M        &kp N               &kp E             &kp I               &kp O                 &none
-&none  &brm LEFT_GUI Z  &brm LEFT_ALT X  &brm LEFT_CONTROL C  &brm LEFT_SHIFT D  &kp V          &kp K        &brm RIGHT_SHIFT H  &brm RCTRL COMMA  &brm RIGHT_ALT DOT  &brm RIGHT_GUI SLASH  &none
-                                         &none                &lt 1 TAB          &lt 3 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE     &none
+&none  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J       &kp L               &kp U             &kp Y               &kp SEMICOLON         &none
+&none  &kp A            &kp R            &kp S                &kp T              &kp G          &kp M       &kp N               &kp E             &kp I               &kp O                 &none
+&none  &brm LEFT_GUI Z  &brm LEFT_ALT X  &brm LEFT_CONTROL C  &brm LEFT_SHIFT D  &kp V          &kp K       &brm RIGHT_SHIFT H  &brm RCTRL COMMA  &brm RIGHT_ALT DOT  &brm RIGHT_GUI SLASH  &none
+                                         &none                &lt 1 TAB          &lt 3 SPACE    &mo_sl 2 2  &lt 3 ENTER         &none
             >;
         };
 

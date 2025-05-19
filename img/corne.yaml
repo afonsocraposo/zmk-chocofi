@@ -40,8 +40,8 @@ layers:
   - ''
   - {t: TAB, h: num}
   - {t: SPACE, h: nav}
-  - {t: ENTER, h: sym}
-  - {t: BACKSPACE, h: nav}
+  - {t: sym, h: sym}
+  - {t: ENTER, h: nav}
   - ''
   num:
   - ''
@@ -179,7 +179,7 @@ combos:
 - p: [28, 31]
   k: CAPS
   l: [default]
-- p: [20, 21]
+- p: [8, 7]
   k: ''''
   l: [default]
 - p: [9, 8]
@@ -193,18 +193,10 @@ combos:
   k: TAB
 - p: [34, 33]
   k: DELETE
-- p: [5, 29]
-  k: '&sys_reset'
-- p: [6, 30]
-  k: '&sys_reset'
-- p: [5, 17, 29]
-  k: '&bootloader'
-- p: [6, 18, 30]
-  k: '&bootloader'
 - p: [14, 15]
   k: {t: default, h: toggle}
   l: [num, sym, nav]
 - p: [31, 32]
   k: Gui+BACKSPACE
-- p: [38, 39]
-  k: {t: sym, h: sticky}
+- p: [20, 21]
+  k: BACKSPACE
