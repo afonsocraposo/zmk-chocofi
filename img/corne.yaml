@@ -40,8 +40,8 @@ layers:
   - ''
   - {t: TAB, h: num}
   - {t: SPACE, h: nav}
-  - {t: sym, h: sym}
-  - {t: ENTER, h: nav}
+  - {t: ENTER, h: sym}
+  - {t: sym, h: nav}
   - ''
   num:
   - ''
@@ -198,3 +198,5 @@ combos:
   k: Gui+BACKSPACE
 - p: [20, 21]
   k: BACKSPACE
+- p: [2, 3]
+  k: TAB
