@@ -40,8 +40,8 @@ layers:
   - ''
   - {t: TAB, h: num}
   - {t: SPACE, h: nav}
-  - {t: ENTER, h: sym}
-  - {t: sym, h: nav}
+  - {t: ENTER, h: nav}
+  - {t: sym, h: sym}
   - ''
   num:
   - ''
@@ -81,7 +81,7 @@ layers:
   - +
   - ''
   - '&sys_reset'
-  - {t: default, h: toggle, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,11 +124,11 @@ layers:
   - \
   - ''
   - ''
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - '&bootloader'
+  - '&sys_reset'
   nav:
   - ''
   - KP 1
@@ -167,11 +167,11 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&sys_reset'
+  - '&bootloader'
 combos:
 - p: [15, 14]
   k: ESCAPE
